@@ -1,0 +1,211 @@
+# Tests packages installed.
+package:
+  build-essential:
+    installed: true
+    versions:
+      - 12.1ubuntu2
+  cmake:
+    installed: true
+    versions:
+      - 3.5.1-1ubuntu3
+  debhelper:
+    installed: true
+    versions:
+      - 9.20160115ubuntu3
+  default-jdk:
+    installed: true
+    versions:
+      - 2:1.8-56ubuntu2
+  gdb:
+    installed: true
+    versions:
+      - 7.11.1-0ubuntu1~16.5
+  openssh-client:
+    installed: true
+    versions:
+      - 1:7.2p2-4ubuntu2.6
+  maven:
+    installed: true
+    versions:
+      - 3.3.9-3
+  pkg-config:
+    installed: true
+    versions:
+      - 0.29.1-0ubuntu1
+  libboost-dev:
+    installed: true
+    versions:
+      - 1.58.0.1ubuntu1
+  libboost-filesystem-dev:
+    installed: true
+    versions:
+      - 1.58.0.1ubuntu1
+  libboost-log-dev:
+    installed: true
+    versions:
+      - 1.58.0.1ubuntu1
+  libboost-program-options-dev:
+    installed: true
+    versions:
+      - 1.58.0.1ubuntu1
+  libboost-regex-dev:
+    installed: true
+    versions:
+      - 1.58.0.1ubuntu1
+  libboost-system-dev:
+    installed: true
+    versions:
+      - 1.58.0.1ubuntu1
+  libboost-test-dev:
+    installed: true
+    versions:
+      - 1.58.0.1ubuntu1
+  libboost-thread-dev:
+    installed: true
+    versions:
+      - 1.58.0.1ubuntu1
+  libevent-dev:
+    installed: true
+    versions:
+      - 2.0.21-stable-2ubuntu0.16.04.1
+  libglib2.0-dev:
+    installed: true
+    versions:
+      - 2.48.2-0ubuntu4.1
+  libglibmm-2.4-dev:
+    installed: true
+    versions:
+      - 2.46.3-1
+  libopencv-dev:
+    installed: true
+    versions:
+      - 2.4.9.1+dfsg-1.5ubuntu1.1
+  libsigc++-2.0-dev:
+    installed: true
+    versions:
+      - 2.6.2-1
+  libsoup2.4-dev:
+    installed: true
+    versions:
+      - 2.52.2-1ubuntu0.3
+  libssl-dev:
+    installed: true
+    versions:
+      - 1.0.2g-1ubuntu4.14
+  libvpx-dev:
+    installed: true
+    versions:
+      - 1.5.0-2ubuntu1
+  libxml2-utils:
+    installed: true
+    versions:
+      - 2.9.3+dfsg1-1ubuntu0.6
+  uuid-dev:
+    installed: true
+    versions:
+      - 2.27.1-6ubuntu3.6
+      -
+# Kurento external libraries
+  gstreamer1.5-plugins-base:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023154838.55.7b19cfd
+  gstreamer1.5-plugins-good:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023160032.112.9ee4248
+  gstreamer1.5-plugins-bad:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023161445.100.3db37b1
+  gstreamer1.5-plugins-ugly:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023162927.89.2685b0f
+  gstreamer1.5-libav:
+    installed: true
+    versions:
+      - 1.8.2.1.xenial~20181023163456.96.493eee4
+  gstreamer1.5-nice:
+    installed: true
+    versions:
+      - 0.1.15-1kurento2
+  gstreamer1.5-tools:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023153550.170.0d6031b
+  gstreamer1.5-x:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023154838.55.7b19cfd
+  libgstreamer1.5-dev:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023153550.170.0d6031b
+  libgstreamer-plugins-base1.5-dev:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023154838.55.7b19cfd
+  libnice-dev:
+    installed: true
+    versions:
+      - 0.1.15-1kurento2
+  openh264-gst-plugins-bad-1.5:
+    installed: true
+    versions:
+      - 1.8.1.1.xenial~20181023161445.100.3db37b1
+  openwebrtc-gst-plugins-dev:
+    installed: true
+    versions:
+      - 0.10.0.1.xenial~20181023164421.2.9d29763
+  kmsjsoncpp-dev:
+    installed: true
+    versions:
+      - 1.6.3.xenial.20181023152331.d78deb7
+  ffmpeg:
+    installed: true
+    versions:
+      - 7:2.8.15-0ubuntu0.16.04.1
+
+# Installed system tools and Python modules
+  fakeroot:
+    installed: true
+    versions:
+      - 1.20.2-1ubuntu1
+  flex:
+    installed: true
+    versions:
+      - 2.6.0-11
+  libcommons-validator-java:
+    installed: true
+    versions:
+      - 1:1.5.0-1
+  python:
+    installed: true
+    versions:
+      - 2.7.12-1~16.04
+  python-apt:
+    installed: true
+    versions:
+      - 1.1.0~beta1ubuntu0.16.04.2
+  python-debian:
+    installed: true
+    versions:
+      - 0.1.27ubuntu2
+  python-git:
+    installed: true
+    versions:
+      - 1.0.1+git137-gc8b8379-2.1
+  python-requests:
+    installed: true
+    versions:
+      - 2.9.1-3ubuntu0.1
+  python-yaml:
+    installed: true
+    versions:
+      - 3.11-3build1
+  subversion:
+    installed: true
+    versions:
+      - 1.9.3-2ubuntu1.1
+
