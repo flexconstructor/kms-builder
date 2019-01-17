@@ -104,7 +104,7 @@ package:
     installed: true
     versions:
       - 2.27.1-6ubuntu3.6
-      -
+
 # Kurento external libraries
   gstreamer1.5-plugins-base:
     installed: true
