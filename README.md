@@ -107,7 +107,27 @@ docker run --rm  -v $(PWD):/.kms  -w /.kms/$(module-name) -e DEB_BUILD_OPTIONS="
 
 ```
 
+## Image versions
 
+
+### `X`
+
+Latest version of major `X` Kurento branch.
+
+
+### `X.Y`
+
+Latest version of minor `X.Y` Kurento branch.
+
+
+### `X.Y.Z`
+
+Latest build of concrete `X.Y.Z` version of Kurento.
+
+
+### `X.Y.Z-rN`
+
+Concrete `N` build of concrete `X.Y.Z` version of Kurento.
 
 ## License
 

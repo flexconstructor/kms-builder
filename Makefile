@@ -12,8 +12,8 @@
 
 
 IMAGE_NAME := flexconstructor/kms-builder
-VERSION ?= 0.0.1
-TAGS ?= 0.0.1,0.1,0,latest
+VERSION ?= 6.9.0-r1
+TAGS ?= 6.9.0,6.9,6,latest
 
 
 comma := ,
