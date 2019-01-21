@@ -109,59 +109,59 @@ package:
   gstreamer1.5-plugins-base:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023154838.55.7b19cfd
+      - 1.8.1.1.xenial~20181018132104.55.7b19cfd
   gstreamer1.5-plugins-good:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023160032.112.9ee4248
+      - 1.8.1.1.xenial~20181018133150.112.9ee4248
   gstreamer1.5-plugins-bad:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023161445.100.3db37b1
+      - 1.8.1.1.xenial~20181018134602.100.3db37b1
   gstreamer1.5-plugins-ugly:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023162927.89.2685b0f
+      - 1.8.1.1.xenial~20181018140138.89.2685b0f
   gstreamer1.5-libav:
     installed: true
     versions:
-      - 1.8.2.1.xenial~20181023163456.96.493eee4
+      - 1.8.2.1.xenial~20181018140706.96.493eee4
   gstreamer1.5-nice:
     installed: true
     versions:
-      - 0.1.15-1kurento2
+      - 0.1.15-1kurento2~20181207131058.gbp03e0b4
   gstreamer1.5-tools:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023153550.170.0d6031b
+      - 1.8.1.1.xenial~20181018130734.170.0d6031b
   gstreamer1.5-x:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023154838.55.7b19cfd
+      - 1.8.1.1.xenial~20181018132104.55.7b19cfd
   libgstreamer1.5-dev:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023153550.170.0d6031b
+      - 1.8.1.1.xenial~20181018130734.170.0d6031b
   libgstreamer-plugins-base1.5-dev:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023154838.55.7b19cfd
+      - 1.8.1.1.xenial~20181018132104.55.7b19cfd
   libnice-dev:
     installed: true
     versions:
-      - 0.1.15-1kurento2
+      - 0.1.15-1kurento2~20181207131058.gbp03e0b4
   openh264-gst-plugins-bad-1.5:
     installed: true
     versions:
-      - 1.8.1.1.xenial~20181023161445.100.3db37b1
+      - 1.8.1.1.xenial~20181018134602.100.3db37b1
   openwebrtc-gst-plugins-dev:
     installed: true
     versions:
-      - 0.10.0.1.xenial~20181023164421.2.9d29763
+      - 0.10.0.1.xenial~20181018141442.2.9d29763
   kmsjsoncpp-dev:
     installed: true
     versions:
-      - 1.6.3.xenial.20181023152331.d78deb7
+      - 1.6.3.xenial.20181017180019.d78deb7
   ffmpeg:
     installed: true
     versions:
