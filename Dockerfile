@@ -17,20 +17,14 @@ ENV LANG=C.UTF-8 \
 # So, for a debug build, you would run TYPE=Debug instead of TYPE=Release.
 ENV TYPE=Release
 ENV PATH="/adm-scripts:/adm-scripts/kms:$PATH"
-ENV KMS_VERSION=6.9.0
 
 # Configure apt-get:
 # * Disable installation of recommended and suggested packages
 # * Use the Openvidu package proxy
 # * Fix issues with Node.js package repo
 # * Add Kurento package repository
-RUN echo 'APT::Install-Recommends "false";' >/etc/apt/apt.conf.d/00recommends \
- && echo 'APT::Install-Suggests "false";' >>/etc/apt/apt.conf.d/00recommends \
- && echo 'Acquire::http::Proxy "http://proxy.openvidu.io:3142";' >/etc/apt/apt.conf.d/01proxy \
- && echo 'Acquire::HTTP::Proxy::deb.nodesource.com "DIRECT";' >>/etc/apt/apt.conf.d/01proxy \
- && echo 'deb [arch=amd64] http://ubuntu.openvidu.io/6.9.0 xenial kms6' >/etc/apt/sources.list.d/kurento.list \
- && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 5AFA7A83 \
- && git clone https://github.com/Kurento/adm-scripts.git \
+RUN git clone https://github.com/Kurento/adm-scripts.git \
+ && /adm-scripts/development/kurento-repo-xenial-nightly-2018 \
  && /adm-scripts/development/kurento-install-development \
  && /adm-scripts/development/kurento-install-packaging
 
